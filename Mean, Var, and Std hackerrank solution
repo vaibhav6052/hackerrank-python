@@ -1,0 +1,9 @@
+import numpy as np 
+my_array=np.array([input().split() for _ in range(int(input().split()[0]))],int)
+print (np.mean(my_array, axis = 1))
+print (np.var(my_array, axis = 0))
+print(np.around(np.std(my_array), decimals=11))
+#np.around is used to round off decimal places to 11
+
+
+
